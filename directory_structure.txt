@@ -1,0 +1,177 @@
++ NOWuse/
+    - directory_structure.txt
+    - haarcascade_frontalface_default.xml
+    - RUN.bat
+    - Steps.txt
+    - Write.py.txt.baiduyun.uploading.cfg
+    - WriteDirStructure.py
+    + algorithm/
+        - finetune_cn.ipynb
+        - Train.py
+        + runs/
+            + Mar06_17-21-27_DragonDream/
+                - events.out.tfevents.1709716887.DragonDream.9372.0
+            + Mar06_17-24-31_DragonDream/
+                - events.out.tfevents.1709717071.DragonDream.5316.0
+            + Mar06_17-27-05_DragonDream/
+                - events.out.tfevents.1709717225.DragonDream.15588.0
+            + Mar06_17-35-23_DragonDream/
+                - events.out.tfevents.1709717723.DragonDream.27528.0
+                + acc_Train/
+                    - events.out.tfevents.1709717726.DragonDream.27528.6
+                + acc_Valid/
+                    - events.out.tfevents.1709717725.DragonDream.27528.3
+                + fps_Train/
+                    - events.out.tfevents.1709717726.DragonDream.27528.5
+                + fps_Valid/
+                    - events.out.tfevents.1709717725.DragonDream.27528.2
+                + loss_Train/
+                    - events.out.tfevents.1709717726.DragonDream.27528.4
+                + loss_Valid/
+                    - events.out.tfevents.1709717725.DragonDream.27528.1
+    + checkpoint/
+        - Resnet_Face_Recognition.pth
+    + FaceDataAndAlgorithm/
+        - Lables.txt
+        + Detected1/
+        + Enhanced2/
+            - fix.py
+            + 1tang_yan/
+                - the dir has 30pictures
+            + Others/
+                - the dir has 148pictures
+        + FaceAlgorithm/
+            - enhance.py
+            - findFace.py
+            - Generate_TrainTXT.py
+        + test#ªπ√ª”√/
+            - the dir has 201pictures
+    + OpenCV/
+        - OpenCV_gather.py
+        - OpenCV_ResNet_torch.py
+        - OpenCV_Video_NotUse.py
+    + RawPictures/
+        + Image Classification/
+            + 0--Parade/
+                - the dir has 460pictures
+            + 1--Handshaking/
+                - the dir has 121pictures
+            + 10--People_Marching/
+                - the dir has 223pictures
+            + 11--Meeting/
+                - the dir has 130pictures
+            + 12--Group/
+                - the dir has 582pictures
+            + 13--Interview/
+                - the dir has 569pictures
+            + 14--Traffic/
+                - the dir has 76pictures
+            + 15--Stock_Market/
+                - the dir has 75pictures
+            + 16--Award_Ceremony/
+                - the dir has 181pictures
+            + 17--Ceremony/
+                - the dir has 150pictures
+            + 18--Concerts/
+                - the dir has 213pictures
+            + 19--Couple/
+                - the dir has 144pictures
+            + 2--Demonstration/
+                - the dir has 995pictures
+            + 20--Family_Group/
+                - the dir has 233pictures
+            + 21--Festival/
+                - the dir has 180pictures
+            + 22--Picnic/
+                - the dir has 96pictures
+            + 23--Shoppers/
+                - the dir has 166pictures
+            + 24--Soldier_Firing/
+                - the dir has 137pictures
+            + 25--Soldier_Patrol/
+                - the dir has 189pictures
+            + 26--Soldier_Drilling/
+                - the dir has 156pictures
+            + 27--Spa/
+                - the dir has 84pictures
+            + 28--Sports_Fan/
+                - the dir has 184pictures
+            + 29--Students_Schoolkids/
+                - the dir has 198pictures
+            + 3--Riot/
+                - the dir has 159pictures
+            + 30--Surgeons/
+                - the dir has 166pictures
+            + 31--Waiter_Waitress/
+                - the dir has 202pictures
+            + 32--Worker_Laborer/
+                - the dir has 178pictures
+            + 33--Running/
+                - the dir has 105pictures
+            + 34--Baseball/
+                - the dir has 94pictures
+            + 35--Basketball/
+                - the dir has 525pictures
+            + 36--Football/
+                - the dir has 167pictures
+            + 37--Soccer/
+                - the dir has 219pictures
+            + 38--Tennis/
+                - the dir has 139pictures
+            + 39--Ice_Skating/
+                - the dir has 315pictures
+            + 4--Dancing/
+                - the dir has 172pictures
+            + 40--Gymnastics/
+                - the dir has 259pictures
+            + 41--Swimming/
+                - the dir has 324pictures
+            + 42--Car_Racing/
+                - the dir has 80pictures
+            + 43--Row_Boat/
+                - the dir has 170pictures
+            + 44--Aerobics/
+                - the dir has 221pictures
+            + 45--Balloonist/
+                - the dir has 134pictures
+            + 46--Jockey/
+                - the dir has 122pictures
+            + 47--Matador_Bullfighter/
+                - the dir has 244pictures
+            + 48--Parachutist_Paratrooper/
+                - the dir has 76pictures
+            + 49--Greeting/
+                - the dir has 164pictures
+            + 5--Car_Accident/
+                - the dir has 195pictures
+            + 50--Celebration_Or_Party/
+                - the dir has 196pictures
+            + 51--Dresses/
+                - the dir has 291pictures
+            + 52--Photographers/
+                - the dir has 233pictures
+            + 53--Raid/
+                - the dir has 178pictures
+            + 54--Rescue/
+                - the dir has 216pictures
+            + 55--Sports_Coach_Trainer/
+                - the dir has 233pictures
+            + 56--Voter/
+                - the dir has 198pictures
+            + 57--Angler/
+                - the dir has 159pictures
+            + 58--Hockey/
+                - the dir has 178pictures
+            + 59--people--driving--car/
+                - the dir has 127pictures
+            + 6--Funeral/
+                - the dir has 170pictures
+            + 61--Street_Battle/
+                - the dir has 126pictures
+            + 7--Cheering/
+                - the dir has 163pictures
+            + 8--Election_Campain/
+                - the dir has 132pictures
+            + 9--Press_Conference/
+                - the dir has 308pictures
+        + newPicture/
